@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Grandmama's Spaghetti Sauce</title>
+		<link rel="stylesheet" href="recipe.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="recipe_book">
+			<div id="recipeSelector">
+				<table>
+					<tr>
+						<td class="recipeBox imageVersion" id="grandmamasSauce"><img src="spaghetti_sauce.jpg"/></td>
+						<td class="recipeBox textVersion" id="grandmamasSauce"><span><h2>Grandmama's Spaghetti Sauce</h2></span></td>
+						<td class="recipeBox imageVersion" id="peanutButterCookies"><img src="cookies.jpg"/></td>
+						<td class="recipeBox textVersion" id="peanutButterCookies"><span><h2>Peanut Butter & Chocolate Chip Cookies</h2></span></td>
+					</tr>
+					<tr>
+						<td class="recipeBox imageVersion" id="gardenSalad"><img src="salad.png"/></td>
+						<td class="recipeBox textVersion" id="gardenSalad"><span><h2>Garden Salad</h2></span></td>
+						<td class="recipeBox imageVersion" id="cheeseAndCrackers"><img src="crackers.jpg"/></td>
+						<td class="recipeBox textVersion" id="cheeseAndCrackers"><span><h2>Charcuterie</h2></span></td>
+					</tr>
+				</table>
+				<div id="textVersionButton" class="aButton"><span>Switch to text version</span></div>
+				<div id="imageVersionButton" class="aButton"><span>Switch to image version</apsn></div>
+			</div>
+			<div id="recipeContainer">
+				<div id="backButton" class="aButton"><span>Back to recipes</span></div>
+				<h1></h1>
+				<table>
+					<tr>
+						<td>
+							<ul id="ingredients">
+								<li><h2>Ingredients</h2></li>
+							</ul>
+						</td>
+						<td>
+							<ul id="quantities">
+								<li><h2>Quantities</h2></li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+				<section id="directionsContainer">
+					<h3>Directions</h3>
+					<ul id="directions">
+					</ul>
+				</section>
+				<div id="saveButton" class="aButton"><span>Save recipe progress</span></div>
+			</div>
+		</div>
+	</body>
+</html>
